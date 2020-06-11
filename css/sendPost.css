@@ -1,0 +1,53 @@
+body
+{
+    background: url('../image/background2.jpg') no-repeat;
+
+
+
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    
+}
+html, body { overflow: hidden}
+
+.card
+{
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width:1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+textarea
+{   
+    outline-color: rgba(0, 0, 0, 0.5);
+    resize: none;
+    overflow: auto;
+    width: 700px;
+    margin-left: 100px;
+}
+
+p
+{
+  color:rgb(255, 255, 255);
+}
+
+/* BUTTON */
+.pylsBttn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+  margin-left:825px;
+  margin-top: -198px;
+  position: relative;
+}
+
+#secim{
+  margin-left: 421px;
+  color:rgb(255, 255, 255);
+}
